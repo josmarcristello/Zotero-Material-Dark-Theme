@@ -5,6 +5,8 @@ userChrome.css file for a Zotero material dark theme. Fork of [Rosmaninho's Them
 
 Created and tested on Zotero 5.0.96. Tested on Windows 10 and 7.
 
+![Zotero Material Dark Theme Example](./Zotero_Material_Dark_Theme.png)
+
 ## Installation
 1. Locate Zotero's userprofile folder C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\user_profile.default\
 2. Locate chrome folder (or create it if it doesn't exist)
