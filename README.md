@@ -1,43 +1,18 @@
-# Zotero-Dark-Theme
-userChrome.css file for a Zotero dark theme. Suggestions for improvements are welcome.
+# Material Dark Theme for Zotero
 
-Created for Zotero 5.0.92. Windows 10 compatible. Cannot vouch for other OSes.
+## Introduction
+userChrome.css file for a Zotero material dark theme. Fork of [Rosmaninho's Theme](https://github.com/notidentical/Zotero-Material-Dark-Theme), but following [Google Material Design's Guidelines](https://material.io/design).
 
-<p align="center">
-<img src="https://github.com/Rosmaninho/Zotero-Dark-Theme/blob/main/Zotero_dark_theme_polished.png"  width="600" height="333" />
-</p>
+Created and tested on Zotero 5.0.96. Tested on Windows 10 and 7.
 
-To use it follow the following steps:
+## Installation
+1. Locate Zotero's userprofile folder C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\user_profile.default\
+2. Locate chrome folder (or create it if it doesn't exist)
+3. Place userChrome.css file there
+4. Re-open Zotero.
 
-1 - Go to your user Profile folder - C:\Users\User_name\AppData\Roaming\Zotero\Zotero\Profiles\user_profile.default\
+## Main Changes from Original
 
-2 - Create a chrome folder,
-
-3 - Place the userChrome.css file in there,
-
-4 - Start Zotero and enjoy
-
-
-I  encourage everyone to play around with this and try to improve on it and theme things that I didn't manage to. These include the following elements:
-
-1 -  couldn't theme the scrollbars (even tried creating a userContent.css  like in Firefox but it didn't work), 
-
-3 - the  menus colors,
-
-4 - the New Item sub-menu in the File drop down menu (it assumes the white color of the menu categories),
-
-5 - the sub-categories in the Preferences dialog. I am not satisfied with the preferences dialog but it's the best I could make it.
-
-
-If you wish to explore for additional elements to alter:
-1 - Go to the folder of my Zotero install (C:\Programs(x86)\Zotero); 
-
-2 - Copy the zotero.jar folder to another folder; 
-
-3 - Use 7zip to unzip zotero.jar to a zotero folder; 
-
-4 - Go to D:\X\zotero\chrome\skin\default\zotero; 
-
-5 - Look at ALL .css files in this folder; 
-
-6 - Start testing different pieces of code to change the defaults in the userchrome.css file.
+- Using darker colors <code>#121212</code> instead of <code>#323234</code>. Similar change for other dark colors.
+- Using pure white with opacity for a gentler contrast 
+- Slightly smaller spacing to allow for more items to be displayed in the same screen.
