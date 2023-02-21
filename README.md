@@ -25,4 +25,4 @@ Tested on Zotero versions 5-7. Tested on Windows 11, 10, and 7. Installation can
 - Automatic installation alternative, for those that need to deploy it on multiple computers.
 - Using darker colors <code>#121212</code> instead of <code>#323234</code>. Similar change for other dark colors.
 - Using pure white with opacity for a gentler contrast 
-- Slightly smaller spacing to allow for more items to be displayed in the same screen.
+- Fixes issues original code had with [CSS validator](https://jigsaw.w3.org/css-validator/validator)
