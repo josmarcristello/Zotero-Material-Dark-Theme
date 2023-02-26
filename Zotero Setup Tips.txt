@@ -1,0 +1,7 @@
+Instructions:
+- Log in Zotero Sync (username/pass)
+- On Settings > Advanced > Files and Folders: Add the base folder (Local Dropbox).
+	- This will sync every file 
+- Download ZotFile (Extension)
+- Set up "Location of Files" to "Custom Location": Dropbox\ZoteroAttachments 
+	- Which moves all your files to a single folder (Which is synced with Dropbox)
