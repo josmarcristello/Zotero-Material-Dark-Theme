@@ -5,6 +5,8 @@ userChrome.css file for a Zotero material dark theme. Fork of [Rosmaninho's Them
 
 Tested on Zotero versions 5-7. Tested on Windows 11, 10, and 7. Installation can be automatic or manual.
 
+Works on Zotero Beta 7 version too, but read until the end for additional instructions.
+
 ![Zotero Material Dark Theme Example](./Zotero_Material_Dark_Theme.png)
 
 ## Installation
@@ -26,3 +28,12 @@ Tested on Zotero versions 5-7. Tested on Windows 11, 10, and 7. Installation can
 - Using darker colors <code>#121212</code> instead of <code>#323234</code>. Similar change for other dark colors.
 - Using pure white with opacity for a gentler contrast 
 - Fixes issues original code had with [CSS validator](https://jigsaw.w3.org/css-validator/validator)
+
+## Zotero Beta 7 users read
+You need to set the proper flag for this (and any other) theme to work:
+- Go to Edit → Settings
+- Click on Advanced
+- Scroll down, find and click on "Config Editor".
+- search for the flag "toolkit.legacyUserProfileCustomizations.stylesheets" and set it to True.
+- Restart Zotero
+
