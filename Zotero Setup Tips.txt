@@ -7,3 +7,4 @@ Instructions:
 - Set up "Location of Files" to "Custom Location": Dropbox\ZoteroAttachments 
 	- Which moves all your files to a single folder (Which is synced with Dropbox)
 	- I recommend setting up subfolder as well: E.g. /%c (to sort by Collection)
+- View Menu -> Show Items from SubCollections
